@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './saving.module.css';
 import { useEffect, useState } from 'react';
-import {src} from '../../test';
+import {src} from '../../linkBE';
 
 
 export function WithDrawMoneyBox(props) {

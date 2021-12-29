@@ -4,7 +4,7 @@ import {Typography, Box, Button, makeStyles } from '@material-ui/core';
 import styles from './style.module.css';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import {src} from '../../test';
+import {src} from '../../linkBE';
 
 const BoxContainer = styled.div`
   width: 100%;

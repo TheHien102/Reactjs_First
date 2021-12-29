@@ -3,7 +3,7 @@ import styles from './saving.module.css';
 import { FormControlLabel, Radio, RadioGroup } from '@mui/material';
 import { useState } from "react";
 import { PayPalButton } from "react-paypal-button-v2";
-import {src} from '../../test';
+import {src} from '../../linkBE';
 export function BoxDeposit(props) {
 
     const [recharge, setRecharge] = useState(0);

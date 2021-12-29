@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './customer.module.css';
 import { useEffect, useState } from 'react';
 // import {src} from '../../test';
-import {src} from '../../../test';
+import {src} from '../../../linkBE';
 export function BoxCustomer() {
 
     const [data, setData] = useState([]);

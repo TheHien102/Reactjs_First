@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './interest.module.css';
 import { useEffect} from 'react';
-import {src} from '../../test';
+import {src} from '../../linkBE';
 
 export function InterestBox() {
 

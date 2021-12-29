@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 // import { getUserArea } from '../../services/userService';
 import { BoxListSaving } from './boxListSaving';
 import { BoxHistorySaving } from './boxHistorySaving';
-import {src} from '../../test';
+import {src} from '../../linkBE';
 
 export function UserSavingBox() {
 

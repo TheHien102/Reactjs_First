@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './dashboard.module.css';
 import { useEffect, useState } from 'react';
-import {src} from '../../../test';
+import {src} from '../../../linkBE';
 
 export function BoxDashboard() {
 
