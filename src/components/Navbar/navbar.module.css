@@ -1,0 +1,26 @@
+.noDecoration {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-family:'Asap',
+
+}
+
+.brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.borderLeft {
+    background-color: blue;
+}
+
+.lineHr {
+    display: flex;
+    flex-direction: column;
+    /* width: 20px; */
+    height: 20px;
+    /* size: 2px; */
+    background-color: #5a5a5a;
+    border-radius: 10px;
+    width: 1px;
+}

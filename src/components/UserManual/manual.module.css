@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+.book img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.book {
+    filter: drop-shadow(10px 5px 10px rgba(0, 0, 0, 0.25));
+    height: 450px;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+.container {
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    top: 200px;
+    left: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+    padding-left: 50px;
+    font-family: 'Asap';
+
+}
+
+.topic {
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #FF725E;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.myBox {
+    border: none;
+    padding: 15px;
+    font: 24px/36px sans-serif;
+    width: 90%;
+    height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    }
+    
+    /* Scrollbar styles */
+    ::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: #ccc;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #5A5A5A;  
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: #999;  
+    }
+
+
+.question {
+    text-decoration: none;
+    font-size: 20pt;
+    color: #FF725E;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 5px;
+    font-family: 'Asap';
+
+}
+
+.stepRegister {
+    /* display: none; */
+    margin-left: 60px;
+    font-weight: bold;
+    color: #5A5A5A;
+    font-family: 'Asap';
+
+}

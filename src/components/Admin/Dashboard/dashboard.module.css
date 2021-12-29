@@ -1,0 +1,111 @@
+.container {
+    position: relative;
+    /* left: 200px; */
+    padding: 30px 50px;
+    font-family: 'Asap';
+    background-color: #F5F8FF;
+    height: 100vh;
+    width: auto;
+    margin-left: 200px;
+}
+
+.dashboard {
+    color: #817D7D;
+    font-size: 30pt;
+}
+
+.boxFlex {
+    display: flex;
+}
+
+.iconZoom {
+    background-color: #F4F4F4;
+    border-radius: 17px;
+    padding: 5px 10px;
+    float: right;
+}
+
+.iconZoom:hover {
+    cursor: pointer;
+}
+
+.boxTotalPayment {
+    box-shadow: 13px 14px 40px rgba(165, 165, 165, 0.25);
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+}
+
+.boxTotal {
+    /* height: 100%; */
+}
+
+.boxTotalCustomer {
+    box-shadow: 13px 14px 40px rgba(165, 165, 165, 0.25);
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 5px 15px;
+}
+
+.labelPayment {
+    color: #817D7D;
+    font-weight: bold;
+    font-size: 24pt;
+    margin: 10px 0;
+}
+
+.totalMoney {
+    color: #4AB3D4;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.percentRise {
+    color: #1BE247;
+    font-weight: bold;
+}
+
+.boxChart {
+    background: #FFFFFF;
+    box-shadow: 13px 14px 40px rgba(165, 165, 165, 0.25);
+    border-radius: 40px;
+    margin-left: 50px;
+    width: 600px;
+    padding: 10px 10px;
+}
+
+.boxSaving {
+    background: #FFFFFF;
+    box-shadow: 13px 14px 40px rgba(165, 165, 165, 0.25);
+    border-radius: 40px;
+    margin-left: 50px;
+    width: 600px;
+    padding: 10px 10px;
+    border: 2px dashed #C4C4C4;
+}
+
+.tablePayment {
+    width: 100%;
+    height: 80%;
+    font-size: 22pt;
+    font-family: 'Asap';
+    border-collapse:collapse;
+    border: none;
+}
+
+.headerTable {
+    font-size: 28pt;
+    font-weight: bolder;
+    color: #817D7D;
+}
+
+.noneBorder {
+    border: none;
+    font-weight: bold;
+}
+
+.blue {
+    color: #4AB3D4;
+}
+

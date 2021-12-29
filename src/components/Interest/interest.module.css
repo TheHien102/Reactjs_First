@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+.person img,
+.coin img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.person {
+    position: absolute;
+    height: 350px;
+    bottom: 10px;
+    left: 20px;
+    filter: drop-shadow(20px 10px 10px rgba(0, 0, 0, 0.25));
+}
+
+.coin {
+    position: absolute;
+    height: 170px;
+    bottom: 10px;
+    left: 340px;
+    filter: drop-shadow(20px 10px 10px rgba(0, 0, 0, 0.25));
+}
+
+.container {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.topic {
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #FF725E;
+    font-size: 50px;
+    font-style: normal;
+    
+}
+
+.topicTable {
+    text-align: left;
+}
+
+.tableInterest {
+    font-family: 'Asap', sans-serif;
+    font-size: 25px;
+    border-collapse: collapse;
+    border: none;
+    color: #5A5A5A;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transform: rotate(0.12deg);
+}
+
+tr:first-child td {
+    border-top: none;
+  }
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr td:first-child {
+    border-left: none;
+  }
+
+tr td:last-child {
+  border-right: none;
+}
+
+td {
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.nonTerm {
+    font-family: 'Asap', sans-serif;
+    color: #5A5A5A;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}

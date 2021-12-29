@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+.saving img,
+.avatar img,
+.btnSaving img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.avatar {
+    width: 140px;
+    margin: 0 auto; 
+}
+
+.saving {
+    filter: drop-shadow(10px 5px 10px rgba(0, 0, 0, 0.25));
+    width: 25vw;
+    position: absolute;
+    top: 120px;
+    right: 10vw;
+}
+
+.btnSaving {
+    width: 100px;
+    margin: 0;
+    /* background: rgba(255, 255, 255, 0.24); */
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    padding: 10px;
+    /* border: 3px solid #FF725E; */
+    background-color: white;
+
+    z-index: 2;
+}
+
+.container {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 160px;
+    left: 150px;
+    background-color: white;
+    border-radius: 44px;
+    border: 5px solid rgba(90, 90, 90, 0.37);
+    box-shadow: 20px 10px 23px rgba(0, 0, 0, 0.25);
+}
+
+.boxInfo {
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+}
+
+.topic {
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #5A5A5A;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.savingList {
+    display: flex;
+    margin: 0 auto;
+    color: #FF725E;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.historyList {
+    display: flex;
+    margin: 0 auto;
+    color: #FF725E;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.accountNumber {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Asap';
+    padding-top: 20px;
+}
+
+.numberDetail {
+    font-family: 'Asap';
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.accountBalance {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Asap';
+}
+
+.balanceDetail {
+    font-family: 'Asap';
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.boxButton {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 650px;
+    right: 130px;
+}
+
+.btn {
+    display: flex;
+    /* position: absolute; */
+    /* top: 650px; */
+    /* right: 130px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.savingMoney {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Asap';
+    font-weight: bold;
+    color: #5A5A5A;
+    border: 3px solid #FF725E;
+    background: white;
+    cursor: pointer;
+    border-radius: 44px;
+    z-index: 1;
+    left: -40px;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 60px;
+}
+
+/* save box money ---------------------------------------------------------------------*/
+
+.boxSave {
+    position: absolute;
+    top: -450px;
+    left: -21%;
+    font-family: 'Asap';
+    width: 500px;
+    box-shadow: 13px 14px 40px rgba(165, 165, 165, 0.3);
+    border-radius: 30px;
+    z-index: 3;
+    background-color: white;
+}
+
+.boxDeposit {
+    position: absolute;
+    top: -450px;
+    left: -21%;
+    font-family: 'Asap';
+    width: 500px;
+    box-shadow: 13px 14px 40px rgba(165, 165, 165, 0.3);
+    border-radius: 30px;
+    z-index: 3;
+    background-color: white;
+}
+
+/* #boxDeposit {
+    display: block;
+} */
+
+.boxWithdraw {
+    position: absolute;
+    top: -450px;
+    left: -21%;
+    font-family: 'Asap';
+    width: 500px;
+    box-shadow: 13px 14px 40px rgba(165, 165, 165, 0.3);
+    border-radius: 30px;
+    z-index: 3;
+    background-color: white;
+}
+
+/* .displayNone {
+    display: none;
+}
+
+.display {
+    display: block;
+} */
+
+.iconWallet {
+    /* display: none; */
+    color: #FF725E;
+}
+
+.boxBalance {
+    border: 2px dashed #C4C4C4;
+    border-radius: 20px;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+}
+
+.h__saveMoney {
+    width: 240px;
+    font-size: 40px;
+    border: 3px dashed #FF725E;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    left: 10%;
+    top: -45px;
+    color: #FF725E;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.accountBalance {
+    font-weight: bold;
+    color: #5A5A5A;
+}
+
+.moneyBalance {
+    color:  #FF725E;
+    font-weight: bold;
+    font-size: 25pt;
+    margin: 0;
+    text-align: center;
+}
+
+.labelMoney {
+    position: absolute;
+    top: 135px;
+    left: 80px;
+    color: #B7B6B6;
+}
+
+.amountMoney {
+    display: flex;
+    border: 5px solid #B7B6B6;
+    width: 170px;
+    font-size: 25pt;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    padding-left: 35px;
+}
+
+
+.settingBox {
+    display: flex;
+    justify-content: center;
+}
+
+.type {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.setting {
+    padding-left: 20px;
+}
+
+.settingTerm {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.settingTermDetail {
+    border-radius: 25px;
+    border: 3px solid #F4F4F4;
+    font-weight: bold;
+    color: #817D7D;
+    cursor: pointer;
+
+}
+
+.btnRenewals {
+    background-color: #6DCBFF;
+    border-radius: 25px;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btnSettlement {
+    border-radius: 25px;
+    border: 3px solid #F4F4F4;
+    box-sizing: border-box;
+    color: #817D7D;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.boxDecision {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.btnOK{
+    background: #FF725E;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.btnCancel{
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #817D7D;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid #ECECEC;
+    margin-left: 30px;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+/* Withdraw Money Box ------------------------------------------------*/
+
+.amountMoneyWithDraw {
+    /* text-align: center; */
+    display: flex;
+    border: 5px solid #B7B6B6;
+    width: 170px;
+    font-size: 25pt;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+.choose {
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.paypalInput {
+        /* text-align: center; */
+        display: flex;
+        border: 5px solid #B7B6B6;
+        width: 170px;
+        font-size: 25pt;
+        margin: 0 auto;
+        border-radius: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 5px 10px;
+}
+
+.bold {
+    font-weight: bold;
+    font-family: 'Asap';
+}
+
+.btnPayPal {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.iconPayPal {
+    position: absolute;
+    color: #6DCBFF;
+    right: 84px;
+    top: 33px;
+
+}
+
+.iconWallet {
+    position: absolute;
+    left: 70px;
+    top: 33px;
+}
+
+
+/* ======================================================================================= */
+
+.boxListSaving {
+    width: 1200px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    /* background: #FFFFFF; */
+    box-shadow: 13px 14px 40px rgba(165, 165, 165, 0.3);
+    border-radius: 30px;   
+    padding: 30px 50px;
+    z-index: 5;
+}
+
+.tableSaving {
+    width: 100%;
+    font-size: 18pt;
+    font-family: 'Asap';
+    border-collapse:collapse;
+    border-bottom: 2px solid #D6D6D6;
+}
+
+/* th, td, tr {
+    border-top: 2px solid #D6D6D6;
+    border-bottom: 2px solid #D6D6D6;
+    font-weight: bold;
+    line-height: 1.5;
+} */
+
+table {
+    border-top: none;
+}
+
+.noneBorderLR, th {
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #D6D6D6;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+.headerTable {
+    color: #FF725E;
+    border-top: none;
+}
+
+.noneBorderLeft {
+    border-left: none;
+}
+
+.noneBorderRight {
+    border-right: none;
+}
+
+.exit {
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    padding: 5px 12px;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: 'Asap';
+    top: -17px;
+    right: -8px;
+}
+
+.exit:hover {
+    cursor: pointer;
+}
+
+.iconWithdraw {
+    color: black;
+    background-color: #f58f81;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.iconWithdraw:hover {
+    cursor: pointer;
+}

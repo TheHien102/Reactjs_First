@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+.containerPage {
+    position: relative;
+    margin-left: 250px;
+    background-color: #F5F8FF;
+    height: 100vh;
+    top: -50px;
+    padding: 50px;
+}
+
+.container {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.topic {
+    font-family: 'Asap', sans-serif;
+    font-weight: bold;
+    color: #817D7D;
+    font-size: 50px;
+    font-style: normal;
+    
+}
+
+.topicTable {
+    text-align: left;
+}
+
+.tableInterest {
+    font-family: 'Asap', sans-serif;
+    font-size: 25px;
+    border-collapse: collapse;
+    border: none;
+    color: #5A5A5A;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transform: rotate(0.12deg);
+}
+
+tr:first-child td {
+    border-top: none;
+  }
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr td:first-child {
+    border-left: none;
+  }
+
+tr td:last-child {
+  border-right: none;
+}
+
+td {
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.nonTerm {
+    font-family: 'Asap', sans-serif;
+    color: #5A5A5A;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.groupBtn {
+    position: relative;
+    top: 250px;
+    left: 250px;
+    width: 400px;
+}
+
+.btnSave {
+    border-radius: 30px;
+    border: none;
+    background-color: #1BE247;
+    color: white;
+    font-family: 'Asap';
+    font-weight: bold;
+    font-size: 20pt;
+    padding: 10px 25px;
+}
+
+.btnSave:hover {
+    cursor: pointer;
+}
+
+.btnCancel {
+    border-radius: 30px;
+    border: none;
+    background-color: #FF8080;
+    color: white;
+    font-family: 'Asap';
+    font-weight: bold;
+    font-size: 20pt;
+    padding: 10px 25px;
+    margin-left: 50px;
+}
+
+.btnCancel:hover {
+    cursor: pointer;
+}
+
+.editValue {
+    width: 50px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-family: 'Asap';
+    font-weight: bold;
+    font-size: 18pt;
+    background-color: #FF8080;
+}
+
+/* .boxConfirm {
+    background-color: red;
+} */
+
+.inputNum {
+    display: flex;
+    width: 150px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-family: 'Asap';
+    font-size: 18pt;
+    font-weight: bold;
+    margin-left: 80px;
+}

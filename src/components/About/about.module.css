@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+.picStructure img, 
+.book img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.picStructure {
+    height: 700px;
+    bottom: 10px;
+    left: 30px;
+}
+
+.book {
+    filter: drop-shadow(20px 10px 10px rgba(0, 0, 0, 0.25));
+    height: 650px;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+
+.container {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    top: 150px;
+    right: 80px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+    padding-left: 50px;
+    font-family: 'Asap';
+    padding-top: 50px;
+}
+
+.boxFlex {
+    display: flex;
+    
+}
+
+.topic {
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #FF725E;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.navBox {
+    border: none;
+    padding: 15px;
+    font: 24px/36px;
+    width: 210px;
+    height: 400px;
+    /* overflow: scroll; */
+    /* overflow-x: hidden; */
+    font-family: 'Asap';
+    border-right: 3px solid #E1E1E1;
+    height: 62vh;
+    }
+    
+    /* Scrollbar styles
+    ::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: #ccc;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #5A5A5A;  
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: #999;  
+    } */
+
+
+.structure {
+    text-decoration: none;
+    font-size: 20pt;
+    color: #5A5A5A;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 15px 5px;
+}
+
+.content {
+    width: 700px;
+    margin-left: 20px;
+}
+
+.stepRegister {
+    /* display: none; */
+    margin-left: 60px;
+    font-weight: bold;
+    color: #5A5A5A;
+}
+
+.vision {
+    color: #5A5A5A;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+.p__content {
+    font-size: 18pt;
+    color: #5A5A5A;
+    font-weight: 400;
+    margin-left: 40px;
+    line-height: 1.5;
+}
+
+li {
+    font-style: italic;
+}
